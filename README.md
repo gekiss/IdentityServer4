@@ -1,12 +1,4 @@
-# Security Vulnerability Found
-IdentityServer4 contains a known Open Redirect vulnerability (CVE-2024-39694) that we do not intend to address in IdentityServer4. Please see [the security advisory](https://github.com/IdentityServer/IdentityServer4/security/advisories/GHSA-55p7-v223-x366) for more details and consider upgrading to [Duende.IdentityServer](www.duendesoftware.com) to receive updates.
-
-# Important update
-This project is not maintained anymore. This repo will be archived when .NET Core 3.1 end of support is reached (13th Dec 2022). All new development is happening in the new [Duende Software](https://github.com/duendesoftware) organization. 
-
-See [here](https://duendesoftware.com/products/identityserver) for more details.
-
-## About IdentityServer4
+## About Abc.IdentityServer4
 [<img align="right" width="100px" src="https://dotnetfoundation.org/img/logo_big.svg" />](https://dotnetfoundation.org/projects?searchquery=IdentityServer&type=project)
 
 IdentityServer is a free, open source [OpenID Connect](http://openid.net/connect/) and [OAuth 2.0](https://tools.ietf.org/html/rfc6749) framework for ASP.NET Core.
@@ -21,7 +13,7 @@ Active development happens on the main branch. This always contains the latest v
 
 ## How to build
 
-* [Install](https://www.microsoft.com/net/download/core#/current) the latest .NET Core 3.1 SDK
+* [Install](https://www.microsoft.com/net/download/core#/current) the latest .NET Core 8.0 SDK
 * Install Git
 * Clone this repo
 * Run `build.ps1` or `build.sh` in the root of the cloned repo

@@ -1,12 +1,12 @@
 <Project>
 
   <PropertyGroup>
-    <FrameworkVersion>8.0.11</FrameworkVersion>
-    <ExtensionsVersion>8.0.11</ExtensionsVersion>
-    <EntityFrameworkVersion>8.0.11</EntityFrameworkVersion>
+    <FrameworkVersion>8.0.27</FrameworkVersion>
+    <ExtensionsVersion>8.0.27</ExtensionsVersion>
+    <EntityFrameworkVersion>8.0.27</EntityFrameworkVersion>
     
     <IdentityServerVersion>4.2.0-*</IdentityServerVersion>
-    <MinVerMinimumMajorMinor>4.2</MinVerMinimumMajorMinor>
+    <MinVerVersion>4.2.0-preview.2</MinVerVersion>
   </PropertyGroup>
 
   <ItemGroup>
@@ -25,11 +25,11 @@
     <!--our stuff -->
     <PackageReference Update="IdentityModel" Version="4.6.0" />
 
-    <PackageReference Update="IdentityServer4" Version="$(IdentityServerVersion)" />
-    <PackageReference Update="IdentityServer4.AspNetIdentity" Version="$(IdentityServerVersion)" />
-    <PackageReference Update="IdentityServer4.Storage" Version="$(IdentityServerVersion)" />
-    <PackageReference Update="IdentityServer4.EntityFramework.Storage" Version="$(IdentityServerVersion)" />
-    <PackageReference Update="IdentityServer4.EntityFramework" Version="$(IdentityServerVersion)" />
+    <PackageReference Update="Abc.IdentityServer4" Version="$(IdentityServerVersion)" />
+    <PackageReference Update="Abc.IdentityServer4.AspNetIdentity" Version="$(IdentityServerVersion)" />
+    <PackageReference Update="Abc.IdentityServer4.Storage" Version="$(IdentityServerVersion)" />
+    <PackageReference Update="Abc.IdentityServer4.EntityFramework.Storage" Version="$(IdentityServerVersion)" />
+    <PackageReference Update="Abc.IdentityServer4.EntityFramework" Version="$(IdentityServerVersion)" />
 
     <!--microsoft extensions -->
     <PackageReference Update="Microsoft.Extensions.Caching.Memory" Version="$(ExtensionsVersion)" />
